@@ -1,0 +1,9 @@
+{% if name and time %} 
+<h1>Hello {{name}}, It is {{time}} </h1>
+{% elif name }
+<h1>Hello {{name}}</h1>
+{% elif time %}
+<h1>Hello. It is {{time}} </h1>
+{% else %}
+<h1>Hello.</h1>
+{% endif %}
