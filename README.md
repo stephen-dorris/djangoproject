@@ -1,1 +1,2 @@
 # djangoproject
+Sample Storefront
